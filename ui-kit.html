@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- owl carousel -->
+    <!-- <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css"> -->
+    <link rel="stylesheet" href="assets/style/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/style/owl.theme.default.min.css">
+
+    <!-- Data Table -->
+    <!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css"> -->
+    <link rel="stylesheet" href="assets/style/jquery.dataTables.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/style/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+
+
+    <title>UI Kit</title>
+    <style type="text/css">
+      .listGroup {
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin: 1.5rem 0 3rem 0;
+      }
+      .listGroup .list-group-item {
+        display: inline-block;
+        border: 1px solid #ddd;
+        text-align: center;
+        margin: .75rem;
+        padding: 1.5rem 1.5rem;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+      }
+      .iconGroup  .list-group-item {
+        width: calc(50% - 1.5rem);
+        font-size: 1.75rem;
+      }
+      .headlineGroup  .list-group-item {
+        width: calc(50% - 1.5rem);
+        text-align: inherit;
+      }
+      .tableGroup  .list-group-item {
+        width: calc(100% - 1.5rem);
+        text-align: inherit;
+      }
+      .class {
+        font-size: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 0;
+        text-align: center;
+        background-color: #f8f9fa;
+        border-radius: .375rem;
+        padding: .375rem .5rem;
+      }
+      .class code, .class kbd {
+        font-size: 100%;
+        margin: 0 .25rem;
+      }
+      .class kbd {
+        background-color: #4A3E3A;
+      }
+      @media (max-width: 767.98px) {
+        .listGroup .list-group-item {
+          display: block;
+          margin: .75rem 0;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+    
+    <!-- topnav begin -->
+    <div class="bg-main-pale">
+      <div class="container">
+        <div class="caption-mascot-wrapper">
+          <h1 class="title">TaiBIF UI Kit</h1>
+          <img src="assets/images/mascot-fish.png" alt="" class="symbol">
+        </div>
+      </div>
+    </div>
+    <!-- topnav end -->
+
+    <!-- container begin -->
+    <div class="container my-5">
+
+      <h1 class="headline-center-md">標題</h1>
+      <ul class="list-group listGroup headlineGroup">
+        <li class="list-group-item">
+          <h1 class="headline-center-md">大標題置中對齊</h1>
+          <p class="class">&lt;h1 class="<code>headline-center-md</code>"&gt; ... &lt;/h1&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <h1 class="headline-center-sm">中標題置中對齊</h1>
+          <p class="class">&lt;h1 class="<code>headline-center-sm</code>"&gt; ... &lt;/h1&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <h1 class="headline-left-hr">中標題靠左對齊下方有底線</h1>
+          <p class="class">&lt;h1 class="<code>headline-left-hr</code>"&gt; ... &lt;/h1&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <h1 class="headline-left">小標題靠左對齊</h1>
+          <p class="class">&lt;h1 class="<code>headline-left</code>"&gt; ... &lt;/h1&gt;</p>
+        </li>
+      </ul>
+
+      <h1 class="headline-center-md">Buttons</h1>
+      <ul class="list-group listGroup iconGroup">
+        <li class="list-group-item">
+          <a class="btn btn-outline-main">Button</a>
+          <p class="class">&lt;a class="<code>btn btn-outline-main</code>"&gt; Button &lt;/a&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <a class="btn btn-outline-chocolate">Button</a>
+          <p class="class">&lt;a class="<code>btn btn-outline-chocolate</code>"&gt; Button &lt;/a&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <a class="btn btn-sunset">Button</a>
+          <p class="class">&lt;a class="<code>btn btn-sunset</code>"&gt; Button &lt;/a&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <a class="btn btn-sunset-md">Button</a>
+          <p class="class">&lt;a class="<code>btn btn-sunset-md</code>"&gt; Button &lt;/a&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <a class="btn btn-sunset-lg">Button</a>
+          <p class="class">&lt;a class="<code>btn btn-sunset-lg</code>"&gt; Button &lt;/a&gt;</p>
+        </li>
+      </ul>
+
+      <h1 class="headline-center-md">ICONS</h1>
+      <ul class="list-group listGroup iconGroup">
+        <li class="list-group-item">
+          <span class="myicon icon-search-lens"></span>
+          <p class="class">&lt;span class="<code>myicon icon-search-lens</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-info-about"></span>
+          <p class="class">&lt;span class="<code>myicon icon-info-about</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-contact-mail"></span>
+          <p class="class">&lt;span class="<code>myicon icon-contact-mail</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-lang-switch"></span>
+          <p class="class">&lt;span class="<code>myicon icon-lang-switch</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-species-icon-plantae"></span>
+          <p class="class">&lt;span class="<code>myicon icon-species-icon-plantae</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-species-icon-fungi"></span>
+          <p class="class">&lt;span class="<code>myicon icon-species-icon-fungi</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-species-icon-bacteria"></span>
+          <p class="class">&lt;span class="<code>myicon icon-species-icon-bacteria</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-species-icon-Insecta"></span>
+          <p class="class">&lt;span class="<code>myicon icon-species-icon-Insecta</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-species-icon-fish"></span>
+          <p class="class">&lt;span class="<code>myicon icon-species-icon-fish</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-species-icon-gecko"></span>
+          <p class="class">&lt;span class="<code>myicon icon-species-icon-gecko</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-species-icon-frog"></span>
+          <p class="class">&lt;span class="<code>myicon icon-species-icon-frog</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-species-icon-bird"></span>
+          <p class="class">&lt;span class="<code>myicon icon-species-icon-bird</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-species-icon-muntiacus-reevesi"></span>
+          <p class="class">&lt;span class="<code>myicon icon-species-icon-muntiacus-reevesi</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-species-icon-more"></span>
+          <p class="class">&lt;span class="<code>myicon icon-species-icon-more</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-data-folder"></span>
+          <p class="class">&lt;span class="<code>myicon icon-data-folder</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-data-stats"></span>
+          <p class="class">&lt;span class="<code>myicon icon-data-stats</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-data-tw"></span>
+          <p class="class">&lt;span class="<code>myicon icon-data-tw</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-data-org"></span>
+          <p class="class">&lt;span class="<code>myicon icon-data-org</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-data-paper"></span>
+          <p class="class">&lt;span class="<code>myicon icon-data-paper</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-download-infographic"></span>
+          <p class="class">&lt;span class="<code>myicon icon-download-infographic</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-mail"></span>
+          <p class="class">&lt;span class="<code>myicon icon-mail</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-envelop"></span>
+          <p class="class">&lt;span class="<code>myicon icon-envelop</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-search"></span>
+          <p class="class">&lt;span class="<code>myicon icon-search</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-check"></span>
+          <p class="class">&lt;span class="<code>myicon icon-check</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-close"></span>
+          <p class="class">&lt;span class="<code>myicon icon-close</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-calendar"></span>
+          <p class="class">&lt;span class="<code>myicon icon-calendar</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-download-csv"></span>
+          <p class="class">&lt;span class="<code>myicon icon-download-csv</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-download-document"></span>
+          <p class="class">&lt;span class="<code>myicon icon-download-document</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-document"></span>
+          <p class="class">&lt;span class="<code>myicon icon-document</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-news"></span>
+          <p class="class">&lt;span class="<code>myicon icon-news</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-event"></span>
+          <p class="class">&lt;span class="<code>myicon icon-event</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-update"></span>
+          <p class="class">&lt;span class="<code>myicon icon-update</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-language"></span>
+          <p class="class">&lt;span class="<code>myicon icon-language</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-link"></span>
+          <p class="class">&lt;span class="<code>myicon icon-link</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-pin-stroke"></span>
+          <p class="class">&lt;span class="<code>myicon icon-pin-stroke</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-pin"></span>
+          <p class="class">&lt;span class="<code>myicon icon-pin</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-phone"></span>
+          <p class="class">&lt;span class="<code>myicon icon-phone</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-user"></span>
+          <p class="class">&lt;span class="<code>myicon icon-user</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-write"></span>
+          <p class="class">&lt;span class="<code>myicon icon-write</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-plus-square"></span>
+          <p class="class">&lt;span class="<code>myicon icon-plus-square</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-minus-square"></span>
+          <p class="class">&lt;span class="<code>myicon icon-minus-square</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-dot-square"></span>
+          <p class="class">&lt;span class="<code>myicon icon-dot-square</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-filter"></span>
+          <p class="class">&lt;span class="<code>myicon icon-filter</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-info"></span>
+          <p class="class">&lt;span class="<code>myicon icon-info</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-triangle-left"></span>
+          <p class="class">&lt;span class="<code>myicon icon-triangle-left</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-triangle-right"></span>
+          <p class="class">&lt;span class="<code>myicon icon-triangle-right</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-triangle-up"></span>
+          <p class="class">&lt;span class="<code>myicon icon-triangle-up</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-triangle-down"></span>
+          <p class="class">&lt;span class="<code>myicon icon-triangle-down</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-arrow-left"></span>
+          <p class="class">&lt;span class="<code>myicon icon-arrow-left</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-arrow-right"></span>
+          <p class="class">&lt;span class="<code>myicon icon-arrow-right</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-arrow-up"></span>
+          <p class="class">&lt;span class="<code>myicon icon-arrow-up</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-arrow-down"></span>
+          <p class="class">&lt;span class="<code>myicon icon-arrow-down</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-arrow-left-thin"></span>
+          <p class="class">&lt;span class="<code>myicon icon-arrow-left-thin</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-arrow-right-thin"></span>
+          <p class="class">&lt;span class="<code>myicon icon-arrow-right-thin</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-quote-after"></span>
+          <p class="class">&lt;span class="<code>myicon icon-quote-after</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-quote-before"></span>
+          <p class="class">&lt;span class="<code>myicon icon-quote-before</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-dart-left"></span>
+          <p class="class">&lt;span class="<code>myicon icon-dart-left</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-dart-right"></span>
+          <p class="class">&lt;span class="<code>myicon icon-dart-right</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-dart-top"></span>
+          <p class="class">&lt;span class="<code>myicon icon-dart-top</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-dart-bottom"></span>
+          <p class="class">&lt;span class="<code>myicon icon-dart-bottom</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-dart-line-h"></span>
+          <p class="class">&lt;span class="<code>myicon icon-dart-line-h</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-dart-line-v"></span>
+          <p class="class">&lt;span class="<code>myicon icon-dart-line-v</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-indicator-right"></span>
+          <p class="class">&lt;span class="<code>myicon icon-indicator-right</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-slash"></span>
+          <p class="class">&lt;span class="<code>myicon icon-slash</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-sorting-asc"></span>
+          <p class="class">&lt;span class="<code>myicon icon-sorting-asc</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-sorting-desc"></span>
+          <p class="class">&lt;span class="<code>myicon icon-sorting-desc</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-trash"></span>
+          <p class="class">&lt;span class="<code>myicon icon-trash</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-social-line"></span>
+          <p class="class">&lt;span class="<code>myicon icon-social-line</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-social-fb"></span>
+          <p class="class">&lt;span class="<code>myicon icon-social-fb</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-social-yt"></span>
+          <p class="class">&lt;span class="<code>myicon icon-social-yt</code>"&gt;&lt;/span&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <span class="myicon icon-social-twitter"></span>
+          <p class="class">&lt;span class="<code>myicon icon-social-twitter</code>"&gt;&lt;/span&gt;</p>
+        </li>
+      </ul>
+
+      <h1 class="headline-center-md">Tables</h1>
+      <ul class="list-group listGroup tableGroup">
+        <li class="list-group-item">
+          <table class="table table-ltmilo">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>First</th>
+                <th>Last</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Larry</td>
+                <td>Evans</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Anna</td>
+                <td>Mackie</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="class">&lt;table class="<code>table table-ltmilo</code>"&gt; ... &lt;/table&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <table class="table table-plain-milo">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>First</th>
+                <th>Last</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Larry</td>
+                <td>Evans</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Anna</td>
+                <td>Mackie</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="class">&lt;table class="<code>table table-plain-milo</code>"&gt; ... &lt;/table&gt;</p>
+        </li>
+        <li class="list-group-item">
+          <table class="table table-ltgray">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>First</th>
+                <th>Last</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Larry</td>
+                <td>Evans</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Anna</td>
+                <td>Mackie</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="class">&lt;table class="<code>table table-ltgray</code>"&gt; ... &lt;/table&gt;</p>
+        </li>
+      </ul>
+
+
+    </div>
+    <!-- container end -->
+
+
+
+    	<!-- footer begin -->
+    <div class="footer-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-5">
+            <img src="assets/images/footer-mreevesi.jpg" alt="" class="img-fluid">
+            <p class="footer-cc-post">Muntiacus reevesi (Ogilby, 1839) Observed in Taiwan by Liu JimFood. Photo via iNaturalist (CC BY-NC 4.0)</p>
+          </div>
+          <div class="col-12 col-md-8 col-lg-7">
+            <div class="footer-info-ctn">
+              <img src="assets/images/taibif-logo-w.png" alt="" class="footer-brand">
+              <p class="contact-info">
+                <span class="myicon icon-pin-stroke mr-1">11574 台北市南港區研究院路二段70巷28號</span>
+                <span class="xs-block">跨領域科技研究大樓 C301室</span>
+              </p>
+              <p class="copywrite">Copyright © TaiBIF 臺灣生物多樣性資訊機構</p>
+              <ul class="social-btn-wrapper">
+                <li><a href="#" class="btn"><span class="myicon icon-social-fb"></span></a></li>
+                <li><a href="#" class="btn"><span class="myicon icon-social-yt"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer end -->
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+
+  <!-- owl carousel JS -->
+  <!-- <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.min.js"></script> -->
+  <script src="assets/js/owl.carousel.min.js"></script>
+
+  <!-- data table JS -->
+  <!-- <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script> -->
+  <script src="assets/js/jquery.dataTables.min.js"></script>
+
+	<!-- Optional JavaScript -->
+	<script src="./assets/js/all.js"></script>
+
+  </body>
+
+</html>

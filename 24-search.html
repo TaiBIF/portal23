@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- owl carousel -->
+    <!-- <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css"> -->
+    <link rel="stylesheet" href="assets/style/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/style/owl.theme.default.min.css">
+
+    <!-- Data Table -->
+    <!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css"> -->
+    <link rel="stylesheet" href="assets/style/jquery.dataTables.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/style/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+
+
+    <title>找資料</title>
+  </head>
+  <body>
+
+        <!-- masthead begin -->
+    <div class="container">
+      <div class="row masthead-wrapper">
+        <!-- masthead-brand-wrapper begin -->
+        <div class="col-auto masthead-brand-wrapper">
+          <a href="index.html" class="header-brand pc">
+            <img src="assets/images/taibif-logo.png">
+          </a>
+          <a href="index.html" class="header-brand mobile">
+            <img src="assets/images/taibif-logotype.png">
+          </a>
+        </div>
+        <!-- masthead-brand-wrapper end -->
+
+        <!-- masthead-menu-wrapper begin -->
+        <div class="col-auto masthead-menu-wrapper">
+          <!-- masthead-dropdown begin -->
+          <div class="masthead-dropdown">
+            <a class="masthead-block-menu" href="#">
+              <span class="myicon icon-info-about"></span>
+              <span class="menu-title">關於我們</span>
+            </a>
+            <div class="dropdown-content">
+              <div class="dropdown-row about">
+                <ul class="dropdown-col">
+                  <li><a href="#" class="item">TaiBIF 介紹</a></li>
+                  <li><a href="#" class="item">GBIF 介紹</a></li>
+                  <li><a href="04-about.html" class="item">TaiBIF 成果</a></li>
+                  <li><a href="02-about.html" class="item">感謝名單</a></li>
+                  <li><a href="06-about.html" class="item">網站導覽</a></li>
+                </ul>
+                <ul class="dropdown-col">
+                  <li><a href="#" class="item">相關連結</a></li>
+                  <li><a href="05-about.html" class="item">FAQ</a></li>
+                  <li><a href="03-about.html" class="item">TaiBIF 資源下載專區</a></li>
+                  <li><a href="#" class="item">使用條款暨隱私權政策</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- masthead-dropdown end -->
+
+          <a class="masthead-block-menu" href="contact.html">
+            <span class="myicon icon-contact-mail"></span>
+            <span class="menu-title">聯絡我們</span>
+          </a>
+
+          <!-- masthead-dropdown begin -->
+          <div class="masthead-dropdown">
+            <a class="masthead-block-menu" href="#">
+              <span class="myicon icon-lang-switch"></span>
+              <span class="menu-title">選擇語言</span>
+            </a>
+            <div class="dropdown-content">
+              <div class="dropdown-row lang">
+                <ul class="dropdown-col">
+                  <li><a href="#" class="item">中文</a></li>
+                </ul>
+                <ul class="dropdown-col">
+                  <li><a href="#" class="item">English</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- masthead-dropdown end -->
+        </div>
+        <!-- masthead-menu-wrapper end -->
+
+        <!-- masthead-search-wrapper begin -->
+        <div class="col-auto masthead-search-wrapper px-shrink">
+          <form action="">
+            <div class="row">
+              <input type="text" class="form-control" placeholder="全站搜尋">
+              <button type="submit" class="btn"><span class="myicon icon-search-lens"></span></button>
+            </div>
+          </form>
+        </div>
+        <!-- masthead-search-wrapper end -->
+      </div>
+    </div>
+    <!-- masthead end -->
+
+    <!-- navbar begin -->
+    <nav class="navbar navbar-expand-lg navbar-caption">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav mx-auto">
+
+          <li class="nav-item">
+            <div class="dropdown dropdown-caption">
+              <a class="btn-caption dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                開放資料
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="07-opendata.html">開放資料流程</a>
+                <a class="dropdown-item" href="08-opendata.html">計畫資料繳交依據與時程</a>
+                <a class="dropdown-item" href="09-opendata.html">開放資料工具</a>
+                <a class="dropdown-item" href="10-opendata.html">資料發布狀況</a>
+              </div>
+            </div> 
+          </li>
+
+          <li class="nav-item">
+            <div class="dropdown dropdown-caption">
+              <a class="btn-caption dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                教育資源
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">什麼是開放資料</a>
+                <a class="dropdown-item" href="#">生物多樣性資訊概論</a>
+                <a class="dropdown-item" href="15-elearning.html">資料開放與應用工作坊</a>
+                <a class="dropdown-item" href="18-elearning.html">參與志工培訓</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <div class="dropdown dropdown-caption">
+              <a class="btn-caption dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                資料應用
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="19-application.html">資料期刊與論文</a>
+                <a class="dropdown-item" href="21-application.html">資料視覺化與圖表產出</a>
+                <a class="dropdown-item" href="20-application.html">資料應用案例</a>
+                <a class="dropdown-item" href="22-application.html">資料產品</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <div class="dropdown dropdown-caption">
+              <a class="btn-caption dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                找資料
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="23-search.html">物種出現紀錄</a>
+                <a class="dropdown-item" href="24-search.html">物種</a>
+                <a class="dropdown-item" href="24-search.html">資料集</a>
+                <a class="dropdown-item" href="24-search.html">資料發布單位</a>
+                <a class="dropdown-item" href="#">API</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <div class="dropdown dropdown-caption">
+              <a class="btn-caption dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                最新消息
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">新聞</a>
+                <a class="dropdown-item" href="#">活動</a>
+                <a class="dropdown-item" href="#">更新</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <div class="dropdown dropdown-caption">
+              <a class="btn-caption dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                專題文章
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">資料故事</a>
+                <a class="dropdown-item" href="#">科普文章</a>
+                <a class="dropdown-item" href="#">技術專欄</a>
+                <a class="dropdown-item" href="#">出版品</a>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    
+    <!-- topnav begin -->
+    <div class="bg-main-pale">
+      <div class="container">
+        <div class="caption-mascot-wrapper">
+          <h1 class="title">找資料</h1>
+          <img src="assets/images/mascot-flower.png" alt="" class="symbol">
+        </div>
+      </div>
+    </div>
+    <!-- topnav end -->
+
+    <!-- container begin -->
+    <div class="container-fluid">      
+
+      <!-- 資料集出現紀錄 row begin -->
+      <div class="row mb-n5">
+
+        <div class="visible-xs">
+          <a href="javascript:void(0)" class="xs-schedule-flow-btn myicon icon-filter" data-toggle="modal" data-target="#flowBtnModal">
+            進階篩選
+          </a>
+        </div>
+
+        <!-- search sidebar begin -->
+        <div class="col-search-sidebar">
+
+          <!-- search modal begin -->
+          <div class="modal modal-search-side-wrapper fade" id="flowBtnModal" tabindex="-1" role="dialog">
+            <!-- modal dialog begin -->
+            <div class="modal-dialog" role="document">
+              <!-- modal content begin -->
+              <div class="modal-content">
+                <!-- search sidebar header begin -->
+                <div class="search-sidebar-header">
+                  <button type="button" class="visible-xs close" data-dismiss="modal"><span class="myicon icon-close"></span></button>
+                  <span>資料集</span>
+                  <div class="search-sidebar-header-del" data-toggle="tooltip" data-placement="left" title="清除">
+                    <span class="badge">1</span>
+                    <span class="myicon icon-trash"></span>
+                  </div>
+                </div>
+                <!-- search sidebar header end -->
+
+                <!-- keyword input begin -->
+                <div class="input-group search-sidebar-header-kw">
+                  <input class="form-control" placeholder="搜尋關鍵字" name="search-term" id="search-term" type="text" value="">
+                  <div class="input-group-btn">
+                    <button class="btn" type="submit">
+                      <i class="myicon icon-search-lens"></i>
+                    </button>
+                  </div>
+                </div>
+                <!-- keyword input end -->
+
+                <!-- search sidebar accordion begin -->
+                <div class="search-sidebar-accordion-wrapper">
+                  <!-- accordion heading begin -->
+                  <div class="search-sidebar-accordion-title">
+                    <a data-toggle="collapse" href="#collapse1" aria-expanded="false">
+                      發布者
+                    </a>
+                  </div>
+                  <!-- accordion heading end -->
+                  <!-- accordion collapse begin -->
+                  <div id="collapse1" class="collapse search-sidebar-accordion-content">
+
+                    <div class="search-sidebar-checkbox-wrapper">
+                      <label class="custom-input-ctn">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        <span class="search-sidebar-count-group">
+                          <span class="name">機構名稱</span>
+                          <span class="count">541,193,920</span>
+                        </span>
+                      </label>
+                    </div>
+
+                  </div>
+                  <!-- accordion collapse end -->
+                </div>
+                <!-- search sidebar accordion end -->
+
+                <!-- search sidebar accordion begin -->
+                <div class="search-sidebar-accordion-wrapper">
+                  <!-- accordion heading begin -->
+                  <div class="search-sidebar-accordion-title">
+                    <a data-toggle="collapse" href="#collapse2" aria-expanded="false">
+                      分佈地區/國家
+                    </a>
+                  </div>
+                  <!-- accordion heading end -->
+                  <!-- accordion collapse begin -->
+                  <div id="collapse2" class="collapse search-sidebar-accordion-content">
+
+                    <div class="search-sidebar-checkbox-wrapper">
+                      <label class="custom-input-ctn">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        <span class="search-sidebar-count-group">
+                          <span class="name">國家</span>
+                          <span class="count">88</span>
+                        </span>
+                      </label>
+                    </div>
+
+                  </div>
+                  <!-- accordion collapse end -->
+                </div>
+                <!-- search sidebar accordion end -->
+
+                <!-- search sidebar accordion begin -->
+                <div class="search-sidebar-accordion-wrapper">
+                  <!-- accordion heading begin -->
+                  <div class="search-sidebar-accordion-title">
+                    <a data-toggle="collapse" href="#collapse3" aria-expanded="false">
+                      授權狀態
+                    </a>
+                  </div>
+                  <!-- accordion heading end -->
+                  <!-- accordion collapse begin -->
+                  <div id="collapse3" class="collapse search-sidebar-accordion-content">
+
+                    <div class="search-sidebar-checkbox-wrapper">
+                      <label class="custom-input-ctn">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        <span class="search-sidebar-count-group">
+                          <span class="name">授權狀態</span>
+                          <span class="count">29</span>
+                        </span>
+                      </label>
+                    </div>
+
+                  </div>
+                  <!-- accordion collapse end -->
+                </div>
+                <!-- search sidebar accordion end -->
+
+              </div>
+              <!-- modal content end -->
+            </div>
+            <!-- modal dialog end -->
+          </div>
+          <!-- search modal end -->
+
+        </div>
+        <!-- search sidebar end -->
+
+
+        <!-- search content begin -->
+        <div class="col-search-content">
+
+          <!-- breadcrumb begin -->
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">首頁</a></li>
+              <li class="breadcrumb-item">找資料</li>
+              <li class="breadcrumb-item active" aria-current="page">資料集</li>
+            </ol>
+          </nav>
+          <!-- breadcrumb end -->
+
+          <!-- search sontent heading begin -->
+          <div class="search-content-heading-wrapper">
+            <h1 class="headline-left">
+              資料集
+              <span class="footnote">共 5,858,142 筆資料</span>
+            </h1>
+            <span>篩選條件：無</span>
+          </div>
+          <!-- search sontent heading end -->
+
+          <!-- TABS&CONTENT begin -->
+          <div class="table-responsive">
+            <ul class="nav nav-tabs search-content-tab nav-fill">
+              <li class="nav-item">
+                <a class="nav-link active" href="#menu1" data-toggle="tab">資料集</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu2" data-toggle="tab">物種</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu3" data-toggle="tab">發布單位</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- tab-content begin -->
+          <div class="tab-content">
+            <!-- 資料集 begin -->
+            <div id="menu1" class="tab-pane fade show active">
+              <div class="container-fluid search-content-grid-wrapper">
+
+                <!-- list begin -->
+                <div class="row listbox-img-right-wrapper">
+                  <div class="col-12">
+                    <span class="search-content-list-tag">資料集</span>
+                    <h3 class="listbox-inner-title"><a href="#">國家公園資料集</a></h3>
+                    <span class="listbox-inner-date">National Science and Technology Council</span>
+                    <div class="listbox-inner-summary hidden-xs"><a href="#"></a>
+                    </div>
+                    <span class="listbox-inner-tag"><a href="#">記錄數量：8,001 </a></span>
+                  </div>
+                </div>
+                <!-- list end -->
+                <!-- list begin -->
+                <div class="row listbox-img-right-wrapper">
+                  <div class="col-12">
+                    <span class="search-content-list-tag">物種名錄</span><h3 class="listbox-inner-title"><a href="/dataset/a81d0d5e-9b64-46c8-b938-f03e4f5bf624/">Digital Archives of Taiwan Malacofauna Database - Nomenclatural Checklist</a></h3>
+                    <span class="listbox-inner-date"></span>
+                    <div class="listbox-inner-summary hidden-xs">
+                      <a href="/dataset/a81d0d5e-9b64-46c8-b938-f03e4f5bf624/"></a>
+                    </div>
+                    <span class="listbox-inner-tag"><a href="#">記錄數量：96 </a></span>
+                  </div>
+                </div>
+                <!-- list end -->
+                <!-- list begin -->
+                <div class="row listbox-img-right-wrapper">
+                  <div class="col-12">
+                    <span class="search-content-list-tag">調查活動</span>
+                    <h3 class="listbox-inner-title"><a href="/dataset/b616f247-e0fb-4a1b-8a75-b818b602e9a6/">人禾環境倫理發展基金會_2017-2019東北部獨流溪魚蝦蟹螺調查</a></h3>
+                    <span class="listbox-inner-date">Taiwan Endemic Species Research Institute</span>
+                    <div class="listbox-inner-summary hidden-xs">
+                      <a href="/dataset/b616f247-e0fb-4a1b-8a75-b818b602e9a6/"></a>
+                    </div>
+                    <span class="listbox-inner-tag"><a href="#">記錄數量：452 </a></span>
+                  </div>
+                </div>
+                <!-- list end -->
+
+                <!-- pagination begin -->
+                <ul class="pagination justify-content-center">
+                  <li>
+                    <a href="#" aria-label="Previous">
+                      <span class="myicon icon-arrow-left"></span>
+                    </a>
+                  </li>
+                  <li class="active"><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li>
+                    <a href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+                <!-- pagination end -->
+
+              </div>            
+            </div>
+            <!-- 資料集 end -->
+
+            <!-- 物種 begin -->
+            <div id="menu2" class="tab-pane fade">
+              <div class="container-fluid search-content-grid-wrapper">
+
+                <!-- list begin -->
+                <div class="row listbox-img-right-wrapper">
+                  <div class="col-12">
+                    <h3 class="listbox-inner-title"><a href="/species/t0000001/">Eukaryota </a></h3>
+                    <div class="listbox-inner-summary hidden-xs">
+                      <ul class="scientific-name-wrapper"><li><a href="/species/undefined">Eukaryota </a></li><li><a href="/species/t0000001/">Eukaryota </a></li></ul>
+                    </div>
+                    <span class="listbox-inner-tag"><a href="">有效的</a></span>
+                  </div>
+                </div>
+                <!-- list end -->
+
+                <!-- list begin -->
+                <div class="row listbox-img-right-wrapper">
+                  <div class="col-12">
+                    <h3 class="listbox-inner-title"><a href="/species/t0000002/">Prokaryota </a></h3>
+                    <div class="listbox-inner-summary hidden-xs">
+                      <ul class="scientific-name-wrapper"><li><a href="/species/undefined">Prokaryota </a></li><li><a href="/species/t0000002/">Prokaryota </a></li></ul>
+                    </div>
+                    <span class="listbox-inner-tag"><a href="">有效的</a></span>
+                  </div>
+                </div>
+                <!-- list end -->
+
+                <!-- pagination begin -->
+                <ul class="pagination justify-content-center">
+                  <li>
+                    <a href="#" aria-label="Previous">
+                      <span class="myicon icon-arrow-left"></span>
+                    </a>
+                  </li>
+                  <li class="active"><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li>
+                    <a href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+                <!-- pagination end -->
+
+              </div>            
+            </div>
+            <!-- 物種 end -->
+
+            <!-- 發布單位 begin -->
+            <div id="menu3" class="tab-pane fade">
+              <div class="container-fluid search-content-grid-wrapper">
+
+                <!-- list begin -->
+                <div class="row listbox-img-right-wrapper">
+                  <div class="col-12">
+                    <h3 class="listbox-inner-title"><a href="/publisher/1/">TELDAP</a></h3>
+                    <div class="listbox-inner-summary">
+                      <a href="/publisher/1/"></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- list end -->
+                <!-- list begin -->
+                <div class="row listbox-img-right-wrapper">
+                  <div class="col-12">
+                    <h3 class="listbox-inner-title"><a href="/publisher/10/">National Science and Technology Council</a></h3>
+                    <div class="listbox-inner-summary">
+                      <a href="/publisher/10/">The National Science and Technology Council  is a dedicated scientific and technological development agency, the NSTC was charged with three main missions of promoting the nation’s overall S&amp;T development, supporting academic research, and developing the science parks.</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- list end -->
+                <!-- list begin -->
+                <div class="row listbox-img-right-wrapper">
+                  <div class="col-12">
+                    <h3 class="listbox-inner-title"><a href="/publisher/4/">World Vegetable Center</a></h3>
+                    <div class="listbox-inner-summary">
+                      <a href="/publisher/4/">The World Vegetable Center (WorldVeg) is a non-profit, autonomous international agricultural research center with headquarters in Taiwan and regional offices in Thailand, India, Benin, Mali, and Tanzania. WorldVeg conducts research and development to realize the potential of vegetables for healthier lives and more resilient livelihoods. The WorldVeg genebank in Taiwan is one of the largest international genebanks of vegetable genetic resources. The genebank unit keeps the seeds alive of the genebank accessions for vegetable improvement and development of new vegetables, and to conserve the basis for food and nutrition security of future generations.</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- list end -->
+
+                <!-- pagination begin -->
+                <ul class="pagination justify-content-center">
+                  <li>
+                    <a href="#" aria-label="Previous">
+                      <span class="myicon icon-arrow-left"></span>
+                    </a>
+                  </li>
+                  <li class="active"><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li>
+                    <a href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+                <!-- pagination end -->
+
+              </div>            
+            </div>
+            <!-- 發布單位 end -->
+
+          </div>
+          <!-- tab-content end -->
+          <!-- TABS&CONTENT end -->
+
+        </div>
+        <!-- search content end -->
+
+      </div>
+      <!-- 資料集出現紀錄 row end -->
+
+    </div>
+    <!-- container end -->
+
+
+
+    	<!-- footer begin -->
+    <div class="footer-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-5">
+            <img src="assets/images/footer-mreevesi.jpg" alt="" class="img-fluid">
+            <p class="footer-cc-post">Muntiacus reevesi (Ogilby, 1839) Observed in Taiwan by Liu JimFood. Photo via iNaturalist (CC BY-NC 4.0)</p>
+          </div>
+          <div class="col-12 col-md-8 col-lg-7">
+            <div class="footer-info-ctn">
+              <img src="assets/images/taibif-logo-w.png" alt="" class="footer-brand">
+              <p class="contact-info">
+                <span class="myicon icon-pin-stroke mr-1">11574 台北市南港區研究院路二段70巷28號</span>
+                <span class="xs-block">跨領域科技研究大樓 C301室</span>
+              </p>
+              <p class="copywrite">Copyright © TaiBIF 臺灣生物多樣性資訊機構</p>
+              <ul class="social-btn-wrapper">
+                <li><a href="#" class="btn"><span class="myicon icon-social-fb"></span></a></li>
+                <li><a href="#" class="btn"><span class="myicon icon-social-yt"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer end -->
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+
+  <!-- owl carousel JS -->
+  <!-- <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.min.js"></script> -->
+  <script src="assets/js/owl.carousel.min.js"></script>
+
+  <!-- data table JS -->
+  <!-- <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script> -->
+  <script src="assets/js/jquery.dataTables.min.js"></script>
+
+	<!-- Optional JavaScript -->
+	<script src="./assets/js/all.js"></script>
+
+  </body>
+
+</html>

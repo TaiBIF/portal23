@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- owl carousel -->
+    <!-- <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css"> -->
+    <link rel="stylesheet" href="assets/style/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/style/owl.theme.default.min.css">
+
+    <!-- Data Table -->
+    <!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css"> -->
+    <link rel="stylesheet" href="assets/style/jquery.dataTables.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/style/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+
+
+    <title>出現紀錄</title>
+  </head>
+  <body>
+
+        <!-- masthead begin -->
+    <div class="container">
+      <div class="row masthead-wrapper">
+        <!-- masthead-brand-wrapper begin -->
+        <div class="col-auto masthead-brand-wrapper">
+          <a href="index.html" class="header-brand pc">
+            <img src="assets/images/taibif-logo.png">
+          </a>
+          <a href="index.html" class="header-brand mobile">
+            <img src="assets/images/taibif-logotype.png">
+          </a>
+        </div>
+        <!-- masthead-brand-wrapper end -->
+
+        <!-- masthead-menu-wrapper begin -->
+        <div class="col-auto masthead-menu-wrapper">
+          <!-- masthead-dropdown begin -->
+          <div class="masthead-dropdown">
+            <a class="masthead-block-menu" href="#">
+              <span class="myicon icon-info-about"></span>
+              <span class="menu-title">關於我們</span>
+            </a>
+            <div class="dropdown-content">
+              <div class="dropdown-row about">
+                <ul class="dropdown-col">
+                  <li><a href="#" class="item">TaiBIF 介紹</a></li>
+                  <li><a href="#" class="item">GBIF 介紹</a></li>
+                  <li><a href="04-about.html" class="item">TaiBIF 成果</a></li>
+                  <li><a href="02-about.html" class="item">感謝名單</a></li>
+                  <li><a href="06-about.html" class="item">網站導覽</a></li>
+                </ul>
+                <ul class="dropdown-col">
+                  <li><a href="#" class="item">相關連結</a></li>
+                  <li><a href="05-about.html" class="item">FAQ</a></li>
+                  <li><a href="03-about.html" class="item">TaiBIF 資源下載專區</a></li>
+                  <li><a href="#" class="item">使用條款暨隱私權政策</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- masthead-dropdown end -->
+
+          <a class="masthead-block-menu" href="contact.html">
+            <span class="myicon icon-contact-mail"></span>
+            <span class="menu-title">聯絡我們</span>
+          </a>
+
+          <!-- masthead-dropdown begin -->
+          <div class="masthead-dropdown">
+            <a class="masthead-block-menu" href="#">
+              <span class="myicon icon-lang-switch"></span>
+              <span class="menu-title">選擇語言</span>
+            </a>
+            <div class="dropdown-content">
+              <div class="dropdown-row lang">
+                <ul class="dropdown-col">
+                  <li><a href="#" class="item">中文</a></li>
+                </ul>
+                <ul class="dropdown-col">
+                  <li><a href="#" class="item">English</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- masthead-dropdown end -->
+        </div>
+        <!-- masthead-menu-wrapper end -->
+
+        <!-- masthead-search-wrapper begin -->
+        <div class="col-auto masthead-search-wrapper px-shrink">
+          <form action="">
+            <div class="row">
+              <input type="text" class="form-control" placeholder="全站搜尋">
+              <button type="submit" class="btn"><span class="myicon icon-search-lens"></span></button>
+            </div>
+          </form>
+        </div>
+        <!-- masthead-search-wrapper end -->
+      </div>
+    </div>
+    <!-- masthead end -->
+
+    <!-- navbar begin -->
+    <nav class="navbar navbar-expand-lg navbar-caption">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav mx-auto">
+
+          <li class="nav-item">
+            <div class="dropdown dropdown-caption">
+              <a class="btn-caption dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                開放資料
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="07-opendata.html">開放資料流程</a>
+                <a class="dropdown-item" href="08-opendata.html">計畫資料繳交依據與時程</a>
+                <a class="dropdown-item" href="09-opendata.html">開放資料工具</a>
+                <a class="dropdown-item" href="10-opendata.html">資料發布狀況</a>
+              </div>
+            </div> 
+          </li>
+
+          <li class="nav-item">
+            <div class="dropdown dropdown-caption">
+              <a class="btn-caption dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                教育資源
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">什麼是開放資料</a>
+                <a class="dropdown-item" href="#">生物多樣性資訊概論</a>
+                <a class="dropdown-item" href="15-elearning.html">資料開放與應用工作坊</a>
+                <a class="dropdown-item" href="18-elearning.html">參與志工培訓</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <div class="dropdown dropdown-caption">
+              <a class="btn-caption dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                資料應用
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="19-application.html">資料期刊與論文</a>
+                <a class="dropdown-item" href="21-application.html">資料視覺化與圖表產出</a>
+                <a class="dropdown-item" href="20-application.html">資料應用案例</a>
+                <a class="dropdown-item" href="22-application.html">資料產品</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <div class="dropdown dropdown-caption">
+              <a class="btn-caption dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                找資料
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="23-search.html">物種出現紀錄</a>
+                <a class="dropdown-item" href="24-search.html">物種</a>
+                <a class="dropdown-item" href="24-search.html">資料集</a>
+                <a class="dropdown-item" href="24-search.html">資料發布單位</a>
+                <a class="dropdown-item" href="#">API</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <div class="dropdown dropdown-caption">
+              <a class="btn-caption dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                最新消息
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">新聞</a>
+                <a class="dropdown-item" href="#">活動</a>
+                <a class="dropdown-item" href="#">更新</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <div class="dropdown dropdown-caption">
+              <a class="btn-caption dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                專題文章
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">資料故事</a>
+                <a class="dropdown-item" href="#">科普文章</a>
+                <a class="dropdown-item" href="#">技術專欄</a>
+                <a class="dropdown-item" href="#">出版品</a>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    
+    <!-- topnav begin -->
+    <div class="bg-main-pale">
+      <div class="container">
+        <div class="caption-mascot-wrapper">
+          <h1 class="title">出現紀錄</h1>
+          <img src="assets/images/mascot-flower.png" alt="" class="symbol">
+        </div>
+      </div>
+    </div>
+    <!-- topnav end -->
+
+    <!-- container begin -->
+    <div class="container-fluid">
+
+      <!-- 搜尋出現紀錄 row begin -->
+      <div class="row mb-n5">
+
+        <div class="visible-xs">
+          <a href="javascript:void(0)" class="xs-schedule-flow-btn myicon icon-filter" data-toggle="modal" data-target="#flowBtnModal">
+            進階篩選
+          </a>
+        </div>
+
+        <!-- search sidebar begin -->
+        <div class="col-search-sidebar">
+
+          <!-- search modal begin -->
+          <div class="modal modal-search-side-wrapper fade" id="flowBtnModal" tabindex="-1" role="dialog">
+            <!-- modal dialog begin -->
+            <div class="modal-dialog" role="document">
+              <!-- modal content begin -->
+              <div class="modal-content">
+                <!-- search sidebar header begin -->
+                <div class="search-sidebar-header">
+                  <button type="button" class="visible-xs close" data-dismiss="modal"><span class="myicon icon-close"></span></button>
+                  <span>資料集</span>
+                  <div class="search-sidebar-header-del" data-toggle="tooltip" data-placement="left" title="清除">
+                    <span class="badge">1</span>
+                    <span class="myicon icon-trash"></span>
+                  </div>
+                </div>
+                <!-- search sidebar header end -->
+
+                <!-- keyword input begin -->
+                <div class="input-group search-sidebar-header-kw">
+                  <input class="form-control" placeholder="搜尋關鍵字" name="search-term" id="search-term" type="text" value="">
+                  <div class="input-group-btn">
+                    <button class="btn" type="submit">
+                      <i class="myicon icon-search-lens"></i>
+                    </button>
+                  </div>
+                </div>
+                <!-- keyword input end -->
+
+                <!-- taxon-tree-wrapper begin -->
+                <div class="taxon-tree-wrapper">
+                  <!-- selected-box begin -->
+                  <div class="selected-box">
+                    <span>篩選物種</span>
+                    <div class="search-taxon__checked">
+                      <input type="checkbox" checked="" id="checked-1">
+                      <label class="form-check-label" for="checked-1">Pteridophyta</label>
+                    </div>
+                    <div class="search-taxon__checked">
+                      <input type="checkbox" checked="" id="checked-2">
+                      <label class="form-check-label" for="checked-2">鏈型植物次界 Streptophyta</label>
+                    </div>
+                  </div>
+                  <!-- selected-box end -->
+                  <!-- taxon-tree-container begin -->
+                  <div class="taxon-tree-container">
+                    <div class="taxon-tree-node-wrapper">
+                      <span class="myicon icon-triangle-right"></span>
+                      <span class="taxon-tree-node-item">
+                        <input type="checkbox" id="check1">
+                        <label class="form-check-label" for="check1">細菌界 Bacteria</label>
+                      </span>
+                    </div>
+                    <div class="taxon-tree-node-wrapper">
+                      <span class="myicon icon-triangle-right"></span>
+                      <span class="taxon-tree-node-item">
+                        <input type="checkbox" id="check2">
+                        <label class="form-check-label" for="check2">原藻界 Chromista</label>
+                      </span>
+                    </div>
+                    <div class="taxon-tree-node-wrapper">
+                      <span class="myicon icon-triangle-right"></span>
+                      <span class="taxon-tree-node-item">
+                        <input type="checkbox" id="check3">
+                        <label class="form-check-label" for="check3">古菌界 Archaea</label>
+                      </span>
+                    </div>
+                    <div class="taxon-tree-node-wrapper">
+                      <span class="myicon icon-triangle-right"></span>
+                      <span class="taxon-tree-node-item">
+                        <input type="checkbox" id="check4">
+                        <label class="form-check-label" for="check4">真菌界 Fungi</label>
+                      </span>
+                    </div>
+                    <div class="taxon-tree-node-wrapper">
+                      <span class="myicon icon-triangle-right"></span>
+                      <span class="taxon-tree-node-item">
+                        <input type="checkbox" id="check5">
+                        <label class="form-check-label" for="check5">動物界 Animalia</label>
+                      </span>
+                    </div>
+                    <div class="taxon-tree-node-wrapper">
+                      <span class="myicon icon-triangle-down"></span>
+                      <span class="taxon-tree-node-item">
+                        <input type="checkbox" id="check6">
+                        <label class="form-check-label" for="check6">植物界 Plantae</label>
+                      </span>
+                      <div class="taxon-tree-node-wrapper">
+                        <span class="myicon icon-triangle-right"></span>
+                        <span class="taxon-tree-node-item">
+                          <input type="checkbox" checked="" id="check7">
+                          <label class="form-check-label" for="check7">Pteridophyta</label>
+                        </span>
+                      </div>
+                      <div class="taxon-tree-node-wrapper">
+                        <span class="myicon icon-triangle-down"></span>
+                        <span class="taxon-tree-node-item">
+                          <input type="checkbox" id="check8">
+                          <label class="form-check-label" for="check8">綠色植物亞界 Viridiplantae</label>
+                        </span>
+                        <div class="taxon-tree-node-wrapper">
+                          <span class="myicon icon-triangle-right"></span>
+                          <span class="taxon-tree-node-item">
+                            <input type="checkbox" id="check9">
+                            <label class="form-check-label" for="check9">Chlorophyta</label>
+                          </span>
+                        </div>
+                        <div class="taxon-tree-node-wrapper">
+                          <span class="myicon icon-triangle-right"></span>
+                          <span class="taxon-tree-node-item">
+                            <input type="checkbox" checked="" id="check10">
+                            <label class="form-check-label" for="check10">鏈型植物次界 Streptophyta</label>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="taxon-tree-node-wrapper">
+                        <span class="myicon icon-triangle-right"></span>
+                        <span class="taxon-tree-node-item">
+                          <input type="checkbox" id="check11">
+                          <label class="form-check-label" for="check11">Biliphyta</label>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="taxon-tree-node-wrapper">
+                      <span class="myicon icon-triangle-right"></span>
+                      <span class="taxon-tree-node-item">
+                        <input type="checkbox" id="check12">
+                        <label class="form-check-label" for="check12">原生生物界 Protozoa</label>
+                      </span>
+                    </div>
+                  </div>
+                  <!-- taxon-tree-container end -->
+                </div>
+                <!-- taxon-tree-wrapper end -->
+
+                <!-- search sidebar accordion begin -->
+                <div class="search-sidebar-accordion-wrapper">
+                  <!-- accordion heading begin -->
+                  <div class="search-sidebar-accordion-title">
+                    <a data-toggle="collapse" href="#collapse1" aria-expanded="false">
+                      國家/區域 Country or Area
+                    </a>
+                  </div>
+                  <!-- accordion heading end -->
+                  <!-- accordion collapse begin -->
+                  <div id="collapse1" class="collapse search-sidebar-accordion-content">
+
+                    <div class="search-sidebar-checkbox-wrapper">
+                      <label class="custom-input-ctn">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        <span class="search-sidebar-count-group">
+                          <span class="name">機構名稱</span>
+                          <span class="count">541,193,920</span>
+                        </span>
+                      </label>
+                    </div>
+
+                  </div>
+                  <!-- accordion collapse end -->
+                </div>
+                <!-- search sidebar accordion end -->
+
+              </div>
+              <!-- modal content end -->
+            </div>
+            <!-- modal dialog end -->
+          </div>
+          <!-- search modal end -->
+
+        </div>
+        <!-- search sidebar end -->
+
+
+        <!-- search content begin -->
+        <div class="col-search-content">
+
+          <!-- breadcrumb begin -->
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">首頁</a></li>
+              <li class="breadcrumb-item">找資料</li>
+              <li class="breadcrumb-item active" aria-current="page">出現紀錄</li>
+            </ol>
+          </nav>
+          <!-- breadcrumb end -->
+
+          <!-- search sontent heading begin -->
+          <div class="search-content-heading-wrapper">
+            <h1 class="headline-left">
+              出現紀錄
+              <span class="footnote">共 5,858,142 筆資料</span>
+            </h1>
+            <span>篩選條件：無</span>
+          </div>
+          <!-- search sontent heading end -->
+
+          <!-- TABS&CONTENT begin -->
+          <div class="table-responsive">
+            <ul class="nav nav-tabs search-content-tab nav-fill">
+              <li class="nav-item">
+                <a class="nav-link active" href="#menu1" data-toggle="tab">資料列表</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu2" data-toggle="tab">分佈地圖</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu3" data-toggle="tab">指標</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu4" data-toggle="tab">下載</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- tab-content begin -->
+          <div class="tab-content">
+            <!-- 資料列表 begin -->
+            <div id="menu1" class="tab-pane fade show active">
+              <!-- table-responsive begin -->
+              <div class="table-responsive">
+                <table class="table table-plain-milo">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>俗名</th>
+                      <th>對應有效學名</th>
+                      <th>日期</th>
+                      <th>國家/地區</th>
+                      <th>資料集</th>
+                      <th>紀錄類型</th>
+                      <th>界</th>
+                      <th>門</th>
+                      <th>綱</th>
+                      <th>目</th>
+                      <th>科</th>
+                      <th>屬</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>黃紋雙尾蛾</td>
+                      <td><i>Dysaethria flavistriga</i></td>
+                      <td>2017-01-05</td>
+                      <td>/南港山步道</td>
+                      <td><a href="/dataset/0b4fefd2-ce85-4b28-a56c-d49e4f6f1d90/">Taiwan Moth Occurrence Data Collected From Social Network</a></td>
+                      <td>HumanObservation</td>
+                      <td>Animalia</td>
+                      <td>Arthropoda</td>
+                      <td>Insecta</td>
+                      <td>Lepidoptera</td>
+                      <td>Uraniidae</td>
+                      <td><i>Dysaethria</i></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!-- table-responsive end -->
+              <!-- pagination begin -->
+              <ul class="pagination justify-content-center">
+                <li>
+                  <a href="#" aria-label="Previous">
+                    <span class="myicon icon-arrow-left"></span>
+                  </a>
+                </li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li>
+                  <a href="#" aria-label="Next">
+                    <span class="myicon icon-arrow-right"></span>
+                  </a>
+                </li>
+              </ul>
+              <!-- pagination end -->         
+            </div>
+            <!-- 資料列表 end -->
+
+            <!-- 分佈地圖 begin -->
+            <div id="menu2" class="tab-pane fade">
+              <img src="https://fakeimg.pl/400x300/e4dfdb/4A3E3A?text=MAP" class="img-fluid">          
+            </div>
+            <!-- 分佈地圖 end -->
+
+            <!-- 指標 begin -->
+            <div id="menu3" class="tab-pane fade">
+              <div class="container-fluid search-content-grid-wrapper">
+
+                <!-- list begin -->
+                <div class="row">
+                  <div class="col-12">
+                    <!-- card-tools-wrapper begin -->
+                    <div class="card-tools-wrapper">
+                      <div class="title">
+                        月份
+                      </div>
+                      <div class="content responsive">
+                        <img src="https://fakeimg.pl/1280x300/e4dfdb/4A3E3A?text=Chart">
+                      </div>
+                    </div>
+                    <!-- card-tools-wrapper end -->
+                  </div>
+                </div>
+                <!-- list end -->
+
+              </div>            
+            </div>
+            <!-- 指標 end -->
+
+            <!-- 下載 begin -->
+            <div id="menu4" class="tab-pane fade">
+              <div class="container-fluid search-content-grid-wrapper">
+
+                <!-- list begin -->
+                <div class="row">
+                  <div class="col-12">
+                    <!-- card-tools-wrapper begin -->
+                    <div class="card-tools-wrapper">
+                      <div class="title">
+                        下載選項
+                      </div>
+                      <div class="content responsive">
+                        <table class="table table-ltgray" id="occurence-charts-dataset-table">
+                          <thead>
+                            <tr>
+                              <th></th>
+                              <th class="text-center">Raw data<br>(原始資料)</th>
+                              <th class="text-center">Interpreted data<br>（TaiBIF 轉釋資料）</th>
+                              <th class="text-center">Coordinates<br>（座標）</th>
+                              <th class="text-center">Format<br>（檔案格式）</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th>simple</th>
+                              <td class="text-center">o</td>
+                              <td class="text-center">o</td>
+                              <td class="text-center">o (if available)</td>
+                              <td class="text-center">csv</td>
+                            </tr>
+                            <tr>
+                              <th>species list</th>
+                              <td class="text-center">x</td>
+                              <td class="text-center">o</td>
+                              <td class="text-center">x</td>
+                              <td class="text-center">csv</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <!-- card-tools-wrapper end -->
+                    <!-- card-tools-wrapper begin -->
+                    <div class="card-tools-wrapper">
+                      <div class="title">
+                        下載選項
+                      </div>
+                      <div class="content responsive">
+                        <form>
+                          <input type="hidden" name="search_date" value="2023-06-26">
+                          <table class="table table-ltgray" id="occurence-charts-dataset-table">
+                            <tbody>
+                              <tr>
+                                <th>下載選項:</th>
+                                <td>
+                                  <select name="type" class="custom-select w-auto">
+                                    <option value="simple">Simple</option>
+                                    <option value="species">Species List</option>
+                                  </select>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th>搜尋時間:</th>
+                                <td>2023-06-26</td>
+                              </tr>
+                              <tr>
+                                <th>使用條款:</th>
+                                <td>請閱讀本站<a target="_blank" href="/data-policy">使用條款</a>，下載資料即表示您同意該條款內容。</td>
+                              </tr>
+                              <tr>
+                                <th>保留期限:</th>
+                                <td>本站保留下載檔案連結一年 2023-06-26 至 2024-06-26。<br>如有延長需求或因學術出版引用而有永久保留需求，請<a target="_blank" href=" /contact-us">聯絡我們</a></td>
+                              </tr>
+                              <tr>
+                                <th>檔案格式:</th>
+                                <td>CSV</td>
+                              </tr>
+                              <tr>
+                                <th>備註:</th>
+                                <td>檔案為離線產生，處理完成後，系統會寄下載資訊到您輸入的電子郵件信箱。<br>如未收到信件，請檢查您的郵件設定，如仍未收到信件，請<a target="_blank" href=" /contact-us">聯絡我們</a></td>
+                              </tr>
+                              <tr>
+                                <td colspan="2">
+                                  <div class="input-group my-2">
+                                    <div class="input-group-prepend">
+                                      <div class="input-group-text" id="download-email">電子郵件信箱</div>
+                                    </div>
+                                    <input type="email" name="email" class="form-control" aria-label="email" aria-describedby="download-email">
+                                  </div>
+                                  <div class="input-group my-2">
+                                    <div class="input-group-prepend">
+                                      <div class="input-group-text" id="confirm-download-email">請再次輸入您的電子郵件信箱</div>
+                                    </div>
+                                    <input type="email" class="form-control" name="confirm_email" aria-label="confirm email" aria-describedby="confirm-email">
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <button type="submit" class="btn btn-block btn-sunset" id="download-dataset-btn">下載檔案</button>
+                        </form>
+                      </div>
+                    </div>
+                    <!-- card-tools-wrapper end -->
+                  </div>
+                </div>
+                <!-- list end -->
+
+              </div>            
+            </div>
+            <!-- 下載 end -->
+
+          </div>
+          <!-- tab-content end -->
+          <!-- TABS&CONTENT end -->
+
+        </div>
+        <!-- search content end -->
+
+      </div>
+      <!-- 搜尋出現紀錄 row end -->
+
+    </div>
+    <!-- container end -->
+
+
+
+    	<!-- footer begin -->
+    <div class="footer-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-5">
+            <img src="assets/images/footer-mreevesi.jpg" alt="" class="img-fluid">
+            <p class="footer-cc-post">Muntiacus reevesi (Ogilby, 1839) Observed in Taiwan by Liu JimFood. Photo via iNaturalist (CC BY-NC 4.0)</p>
+          </div>
+          <div class="col-12 col-md-8 col-lg-7">
+            <div class="footer-info-ctn">
+              <img src="assets/images/taibif-logo-w.png" alt="" class="footer-brand">
+              <p class="contact-info">
+                <span class="myicon icon-pin-stroke mr-1">11574 台北市南港區研究院路二段70巷28號</span>
+                <span class="xs-block">跨領域科技研究大樓 C301室</span>
+              </p>
+              <p class="copywrite">Copyright © TaiBIF 臺灣生物多樣性資訊機構</p>
+              <ul class="social-btn-wrapper">
+                <li><a href="#" class="btn"><span class="myicon icon-social-fb"></span></a></li>
+                <li><a href="#" class="btn"><span class="myicon icon-social-yt"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer end -->
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+
+  <!-- owl carousel JS -->
+  <!-- <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.min.js"></script> -->
+  <script src="assets/js/owl.carousel.min.js"></script>
+
+  <!-- data table JS -->
+  <!-- <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script> -->
+  <script src="assets/js/jquery.dataTables.min.js"></script>
+
+	<!-- Optional JavaScript -->
+	<script src="./assets/js/all.js"></script>
+
+  </body>
+
+</html>
